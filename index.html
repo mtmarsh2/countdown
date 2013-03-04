@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+  <head>
+  	<link rel="stylesheet" type="text/css" href="mystyle.css">
+  </head>
+  <body>
+
+<div>
+	<div id="logo">
+		<h1>10,000 Hours</h1>
+	</div>
+    <div id="buttons_1">
+      <div id="time_buttons">
+      <input type="button" id="start" value="start" />
+      <input type="button" id="stop" value="stop" />
+      <input type="button" id="daily_time_check" value="dailytime" />
+    </div>
+    <div id="buttons_2">
+      <input type="button" id="reset_time" value="reset_time" />
+      <input type="button" id="pick_goal" value="pick_goal"/>
+      <input type="button" id="reset_goal" value="reset_goal" />
+    </div>
+    <form name="goal_submit" action="javascript:void(0);" id="goal_button">
+      <input type="text" name="goal">
+      <input type="submit" id="goal_entered"name="goal_buttonnnnn">
+    </form>
+    <!--<input type="button" id="store" value="store" />-->
+</div>
+<div id="goal">_</div>
+<p id="item">Hi</p>
+<div id="time">
+<div id="daily_time">
+  <div id="daily_seconds"></div>
+  <div id="daily_minutes"></div>
+  <div id="daily_hours"></div>
+</div>
+<div><p id="time_numbers">Ready To Start?</p></div>
+<div id="time_labels"></div>
+</div>
+
+<script src="jquery-1.9.1.js"></script>
+<script src="myscript.js"></script>
+<script src="background.js"></script>
+</body>
+</html>

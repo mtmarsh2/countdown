@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+  <head>
+  	<script>
+    chrome.extension.onRequest.addListener(function(request, sender, sendResponse) {
+      console.log("background received", arguments);
+    });
+  </script>
+  </head>
+  <body>
+    <section id="durationEntry">
+    Countdown Duration (secs): <input id="durationSecs" size="5" value="60" />
+    <button id="schedule">start</button>
+  </section>
+  </body>
+</html>

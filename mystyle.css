@@ -1,0 +1,104 @@
+body{
+	height:270px;
+	width:500px;
+	background-image: url('background_image.png');
+	color:white;
+}
+
+#daily_time{
+	position:absolute;
+	top:-100px;
+}
+
+#goal_button{
+	display: none;
+}
+
+#buttons_1{
+	display:inline;
+	width:100px;
+	float:left;
+}
+
+#buttons_2{
+float:right;
+position:absolute;
+left:420px;
+width:100px;
+top:80px;
+
+}
+
+#logo{
+	text-align: center;
+	color:white;
+}
+
+#time{
+	text-align: center;
+	position:relative;
+	top:80px;
+}
+
+#my_buttons{
+}
+
+#start{
+	width:55px;
+	height:57px;
+	margin-right:10px;
+}
+
+
+
+#stop{
+	width: 55px;
+	height:57px;
+}
+
+
+#time_numbers{
+	font-family: courier;
+	font-size:30px;
+	color:white;
+	text-align: center;
+}
+#time_labels{
+	font-family: courier;
+	font-size:14px;
+	color:white;
+	position:relative;
+	top:-30px;
+}
+
+#time_labels p{
+	margin-left:50%;
+	margin-right: 50%;
+}
+
+#days{
+	display: inline;
+	position: absolute;
+	left:20%;
+
+}
+
+#hours{
+	display: inline;
+	position: absolute;
+	left:39%;
+}
+#minutes{
+	display: inline;
+	padding-right: 20px;
+	position: absolute;
+	left:55%;
+	
+}
+#seconds{
+	display: inline;
+	padding-right: 20px;
+	position: absolute;
+	left:73.5%;
+	
+}
